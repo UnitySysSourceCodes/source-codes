@@ -1,7 +1,7 @@
-local unitynametags = {}
+
 
 if require(15651544034).nametagcheck() then -- see game.ReplicatedStorage.WhitelistChecker["Whitelist Check - Non OBF"] for the code behind it
-
+ warn("Unity Nametags | Whitelist found, if no error is shown and no nametags show please contact support")
 	local rs = game:GetService("ReplicatedStorage")
 	local MarketplaceService = game:GetService("MarketplaceService")
 	local Http = game:GetService("HttpService")
@@ -355,4 +355,3 @@ if require(15651544034).nametagcheck() then -- see game.ReplicatedStorage.Whitel
 		end
 	end
 else return warn("Unity Nametags | You do not own this product, if this is a mistake, please join our comms server dsc.gg/GGxPeVNJGw") end
-return unitynametags
